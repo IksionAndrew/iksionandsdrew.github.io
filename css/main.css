@@ -1,0 +1,72 @@
+/*
+1. За допомогою background-color визначити кольори фону кожному блоку відповідно зразку.
+2. У HTML усім елементам .block додати клас cats.
+3. Підібрати значення background-position для кожного блоку, щоб картинка відповідала зразку
+*/
+.block1 {
+  
+  background-position: left top;
+}
+.block2 {
+    background-color: #f1c40f;
+    background-position: center top;
+    
+}
+.block3 {
+    background-color: #e74c3c;
+    background-position: right top;
+}
+.block4 {
+    background-color: #3498db;
+    background-position: left center;
+}
+.block5 {
+    background-color: #3498db;
+    background-position: center;
+}
+.block6 {
+    background-color: #27ae60;
+    background-position: right center;
+}
+.block7 {
+    background-color: #bdc3c7;
+    background-position: left bottom;
+}
+.block8 {
+    background-color: #95a5a6;
+    background-position: center bottom;
+}
+.block9 {
+    background-color: #bdc3c7;
+    background-position: right bottom;
+}
+
+.wrapper {
+  width: 300px;
+  float: left;
+}
+.block {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  
+}
+
+.zrazok {
+  float: right;
+  width: 270px;
+  height: 270px;
+  color: #fff;
+  line-height: 270px;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 1px 1px 4px #000;
+  margin: 0 10px 10px 0;
+}
+
+.cats {
+  background-image: url("https://beeblook.github.io/web/kotokomix.png");
+    
+}
